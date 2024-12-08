@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/orderdb
     username: postgres
-    password: "{cipher}AQBXPY2dwdp97YRNfAHaC+YIpvFubprLJV5BxLjimjDiVkWFIlJ1R3/BIuvLXAkD0Hoqdxe2WER+5i9AjH//KOxCzIwmp8DR45mGQ6jmS2u9tzcYaF49gSp1DefDw1eyY2SQldIDjeKYZjyslMzhxZLduLsBuJu0jWOcxrFakiZ8Q38PSOp8M/czy+JP4ioEhY2GjtNfSIC2gKSQqRD2rNWEQzH5J6J4MH4BbPkA4gcAqPQqSZzmesjzXJnBTZtV3QT+k7xumyNY8JmYauykI67N00bJEj7lhw1HzNbj5FknAQp4txwfbZhnd95HZFZC4+7uSwR9PR1p436XbRA1piqvK37VmiEUegnUK5l1W94l6oNsPacjrRYiivd7BLhAOaKW4PqYT8ZTq2bqABIeDpbZ"
+    password: "{cipher}AQC9enN+1OyGAK9hbNt+xA7MSJIMG5kcjev/YJQJ5QvQSLM6Pcg/nOrapqOimGx0WHbTDrgvhZyfSfFum4/evWgVyok80UnKBws3Dz5Xu5qxLiYASAE7R2tE4V8L3IuJDlFUzCOjY7Vg2JMEP92arID7am+jpAMpPgdGC2LLVNpqXDtBcNzjRMNlOmYpub3mkHd1IFwQCEWiD5sDCh4qGvxIC/SkAwUv4eSJ29UJ+U2rDRJ1jbdRRBEWyZzQzLMg9g9n4VP+l92gpWwndIdBvU9Ixd9wjp5OW+yuXI84ESvz2e2u2IurqBVxJQhx5ZYs6BOr0MvWjMgfs4uaAF8aIBFME/E2XsbqApJ6JCN8wUHA3o5YLZAzsG2NqlyKy03Glf0GSzauNDpi1jiDG3Iu9S3J"
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
