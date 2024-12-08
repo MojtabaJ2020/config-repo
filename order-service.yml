@@ -7,9 +7,10 @@ spring:
     password: "{cipher}AQAWGYWw2BYWzHNVTT8VLMjytZH7S+G/xaUA1BPIlp5ugqYldIf7HqPdHJ4k3ud/i7DUlxpaSReyf9sr146DGR5LZjzl3/uFJ0iftga+I9tMNu+jEZU9VUwxK5hhdEesKaIKekfELJTMiTkCHUEQRuuhVHJq0AHnl48jybWjbEYC6+pFZcMxWhMC7c0SIJYkNEIOZBtxX6krwVxT611S2ju3U57saPAwCGDAMB/XONFBA+RzdDwSSfRh5AnFF4g39OPccb2wkBK4XR3tH7q5N+GaPw8kW9yKWhSNs1nSBwu76RvQdcijzAVd/3ebWJOon4GoXF+aWwqR/aiCRvGth+GxLPcNVa3IPyOh2zSBpSHveij5GvcnVJfPgwlTTAQTsxU="
     driver-class-name: org.postgresql.Driver
   jpa:
-    hibernate:
-      ddl-auto: true
-    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: true
+        show-sql: true
 logging:
   level:
     com.example.orderservice: DEBUG
