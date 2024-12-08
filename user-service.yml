@@ -1,0 +1,15 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/userdb
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: true
+    show-sql: true
+logging:
+  level:
+    com.example.userservice: DEBUG

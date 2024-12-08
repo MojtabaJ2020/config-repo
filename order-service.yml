@@ -1,0 +1,15 @@
+server:
+  port: 8091
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/orderdb
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: true
+    show-sql: true
+logging:
+  level:
+    com.example.orderservice: DEBUG
