@@ -6,6 +6,8 @@ spring:
       auto-offset-reset: earliest #Determines the behavior (earliest, latest, none) when there is no committed offset for a consumer or when the offset is invalid (e.g., deleted).
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: "*"
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
