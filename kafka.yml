@@ -8,7 +8,7 @@ spring:
       value-deserializer: org.springframework.kafka.support.JsonDeserializer
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.springframework.kafka.support.JsonDeserializer
+      value-serializer: org.springframework.kafka.support.JsonSerializer
       retries: 3
       ack: all
     template:
