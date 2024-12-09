@@ -5,10 +5,10 @@ spring:
       group-id: default-group #Defines the consumer group ID for the Kafka consumer
       auto-offset-reset: earliest #Determines the behavior (earliest, latest, none) when there is no committed offset for a consumer or when the offset is invalid (e.g., deleted).
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-      value-deserializer: org.springframework.kafka.support.JsonDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.springframework.kafka.support.JsonSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
       retries: 3
       ack: all
     template:
