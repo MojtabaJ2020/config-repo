@@ -12,6 +12,9 @@ spring:
       ddl-auto: update
       format_sql: true
     show-sql: true
+  config:
+    import: kafka.yml
 logging:
   level:
     com.example.orderservice: DEBUG
+

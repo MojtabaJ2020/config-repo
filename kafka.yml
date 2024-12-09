@@ -9,3 +9,7 @@ spring:
     producer:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.JsonDeserializer
+      retries: 3
+      ack: all
+    template:
+      default-topic: default-topic
